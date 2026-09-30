@@ -1,7 +1,5 @@
 # company-infra-stack
 
-# DevOps Monitoring Project
-
 A hands-on DevOps project designed to practice **CI/CD, containerization, automation, and monitoring** using a Linux environment.
 
 ## Technologies
@@ -9,6 +7,7 @@ A hands-on DevOps project designed to practice **CI/CD, containerization, automa
 * Linux
 * Shell / Bash
 * Git & GitHub
+* Python (FastAPI)
 * Docker
 * GitHub Actions
 * Prometheus
@@ -23,6 +22,17 @@ A hands-on DevOps project designed to practice **CI/CD, containerization, automa
 * CI/CD automation with GitHub Actions
 * Metrics collection with Prometheus
 * Monitoring and dashboards with Grafana
+
+## Project Structure
+
+```
+.
+├── app/               # FastAPI notes service (health check and notes endpoints) and its tests
+├── docker/            # Dockerfile and Docker Compose configuration
+├── scripts/           # Shell scripts (VM setup, hardening, backup, health checks)
+├── docs/              # Documentation, runbook and architecture notes
+└── .github/workflows/ # GitHub Actions CI/CD pipelines
+```
 
 ## Goal
 
