@@ -69,4 +69,4 @@ docker images notes-app
 
 ## Goal
 
-The goal of this project is to build a simple end-to-end DevOps workflow covering **development → containerization → deployment → monitoring**, while gaining practical experience with commonly used DevOps tools. /ismailhasir
+The goal of this project is to build a simple end-to-end DevOps workflow covering **development → containerization → deployment → monitoring**, while gaining practical experience with commonly used DevOps tools.
